@@ -134,6 +134,8 @@ MainLabel:
 	JML $00806B|!Bank	; Return.  TODO: Detect if the ROM is using the Wait Replace patch.
 
 moved_main:
+	PHY
+	PHX
 	PHP
 	PHB
 	PHK
